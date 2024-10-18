@@ -65,6 +65,9 @@ fun BasicCompose(
             fontFamily = FontFamily.SansSerif
         )
 
+        Text(text = "Menuju Indonesia Emas",
+            fontSize = 15.sp
+        )
 
     }
 }
