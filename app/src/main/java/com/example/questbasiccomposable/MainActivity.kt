@@ -36,7 +36,9 @@ class MainActivity : ComponentActivity() {
             QuestBasicComposableTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     BasicCompose(
-                        name = "Android",
+                        name = "Nama",
+                        nama = "Muhammad Faris Abqari",
+                        NIM = "20220140097",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
@@ -46,17 +48,17 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun BasicCompose(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}
+fun BasicCompose(
+    name: String,
+    nama : String,
+    NIM : String,
+    modifier: Modifier = Modifier
+) {
 
+}
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
     QuestBasicComposableTheme {
-        Greeting("Android")
-    }
+        BasicCompose("Nama","Muhammad Faris Abqari", "20220140097")    }
 }
