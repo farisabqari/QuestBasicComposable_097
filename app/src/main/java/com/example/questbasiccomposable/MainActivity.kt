@@ -31,6 +31,7 @@ package com.example.questbasiccomposable
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        enableEdgeToEdge()
 
     }
 }
