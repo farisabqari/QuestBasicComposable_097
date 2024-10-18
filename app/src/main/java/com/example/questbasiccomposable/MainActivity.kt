@@ -68,6 +68,11 @@ fun BasicCompose(
         Text(text = "Menuju Indonesia Emas",
             fontSize = 15.sp
         )
+        Image(
+            painter = painterResource(id = R.drawable.logofifa),
+            contentDescription = null,
+            modifier = Modifier.size(250.dp)
+        )
 
     }
 }
