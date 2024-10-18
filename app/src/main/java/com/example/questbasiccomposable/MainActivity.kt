@@ -86,6 +86,13 @@ fun BasicCompose(
             fontWeight = FontWeight.Bold
 
         )
+        Image(
+            painter = painterResource(id = R.drawable.ais),
+            contentDescription = null,
+            modifier = Modifier
+                .size(300.dp)
+
+        )
 
     }
 }
