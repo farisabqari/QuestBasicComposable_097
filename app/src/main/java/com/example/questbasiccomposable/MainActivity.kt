@@ -103,7 +103,7 @@ fun BasicCompose(
 }
 @Preview(showBackground = true)
 @Composable
-fun GreetingPreview() {
+fun BasicComposePreview() {
     QuestBasicComposableTheme {
         BasicCompose("Nama","Muhammad Faris Abqari", "20220140097")    }
 }
