@@ -58,6 +58,12 @@ fun BasicCompose(
         verticalArrangement = Arrangement.Center,
         modifier = Modifier.fillMaxSize()
     ){
+        Text(text = "Indonesia",
+            fontSize = 50.sp,
+            fontWeight = FontWeight.Bold,
+            color = Color.Red,
+            fontFamily = FontFamily.SansSerif
+        )
 
 
     }
