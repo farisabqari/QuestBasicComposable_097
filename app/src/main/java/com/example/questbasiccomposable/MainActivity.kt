@@ -74,6 +74,14 @@ fun BasicCompose(
             modifier = Modifier.size(250.dp)
         )
 
+        Text(text = name)
+
+        Text(text = nama,
+            fontSize = 12.sp,
+            color = Color.Red,
+            fontWeight = FontWeight.Bold
+        )
+
     }
 }
 @Preview(showBackground = true)
