@@ -81,6 +81,11 @@ fun BasicCompose(
             color = Color.Red,
             fontWeight = FontWeight.Bold
         )
+        Text(text = NIM,
+            fontSize = 20.sp,
+            fontWeight = FontWeight.Bold
+
+        )
 
     }
 }
