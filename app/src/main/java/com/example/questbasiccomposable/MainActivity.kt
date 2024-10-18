@@ -91,7 +91,12 @@ fun BasicCompose(
             contentDescription = null,
             modifier = Modifier
                 .size(300.dp)
-
+                .border(
+                    width = 5.dp,
+                    color = Color.Black,
+                    shape = RoundedCornerShape(15.dp)
+                )
+                .padding(0.dp)
         )
 
     }
